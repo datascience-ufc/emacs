@@ -1,0 +1,46 @@
+#+STARTUP: showall align
+#+TITLE: Emacs: Tabelas de Comandos e Símbolos
+#+AUTHOR: Gerônimo Águiar ~<geron@alu.ufc.br>~ \\ Manoel Machado ~<manoel.machado@alu.ufc.br>~ \\ Samuel Hericles ~<samuel.herilces@alu.ufc.br>~
+#+DATE: 27 de abril de 2019
+#+OPTIONS: toc:nil
+#+LANGUAGE: bt-br
+#+LATEX_HEADER: \usepackage[]{babel}
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [twocolumns, 10pt]
+
+|-----+-----------+--------------------------------------------|
+| No. | Comando   | Descrição                                  |
+|-----+-----------+--------------------------------------------|
+|   1 | ~M-x~     | Executar comando                           |
+|   2 | ~C-x C-f~ | Abrir um arquivo                           |
+|   3 | ~C-x C-c~ | Fechar o editor                            |
+|   4 | ~C-h t~   | Abrir o tutorial                           |
+|   5 | ~C-x k~   | Matar o atual /buffer/                     |
+|   6 | ~C-x 0~   | Fecha uma /window/                         |
+|   7 | ~C-x 1~   | Fecha todos as /windows/, exceto a em foco |
+|   8 | ~C-x 2~   | Divide a tela horizontalmente              |
+|   9 | ~C-x 3~   | Divide a tela verticalmente                |
+|  10 | ~C-x o~   | Troca de /window/                          |
+|  11 | ~C-x C-b~ | Abre modo de seleção de /buffers/          |
+|  12 | ~C-x b~   | Modo de busca para /buffers/               |
+|  13 | ~C-x →~   | Seleciona o /buffer/ seguinte              |
+|  14 | ~C-x ←~   | Seleciona o /buffer/ anterior              |
+|  16 | ~M-w~     | Copiar                                     |
+|  17 | ~C-w~     | Recortar                                   |
+|  18 | ~C-y~     | Colar                                      |
+|  19 | ~M-y~     | Histórico de /clipboard/ (/ring/)          |
+|  20 | ~C-g~     | Cancelar                                   |
+|  21 | ~C-h t~   | Abrir tutorial do Emacs                    |
+|  21 | ~C-h t~   | Abrir tutorial do Emacs                    |
+|-----+-----------+--------------------------------------------|
+
+|--------------+-----------------------|
+| Símbolo      | Legenda               |
+|--------------+-----------------------|
+| ~M~ / ~Meta~ | Alt                   |
+| ~C~          | Ctrl                  |
+| ~RET~        | Enter                 |
+| ~buffer~     | Arquivo               |
+| ~window~     | Painel interno        |
+| ~clipboard~  | Área de Transferência |
+|--------------+-----------------------|
